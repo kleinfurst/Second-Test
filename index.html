@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Content Page</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <button class="tab-button" onclick="showContent('worksheets')">Worksheets</button>
+        <button class="tab-button" onclick="showContent('music')">Music</button>
+        <button class="tab-button" onclick="showContent('videoClips')">Video Clips</button>
+
+        <div id="worksheets" class="content">
+            <ul>
+                <li>Worksheet 1</li>
+                <li>Worksheet 2</li>
+                <li>Worksheet 3</li>
+            </ul>
+        </div>
+
+        <div id="music" class="content">
+            <ul>
+                <li>Music Track 1</li>
+                <li>Music Track 2</li>
+                <li>Music Track 3</li>
+            </ul>
+        </div>
+
+        <div id="videoClips" class="content">
+            <ul>
+                <li>Video Clip 1</li>
+                <li>Video Clip 2</li>
+                <li>Video Clip 3</li>
+            </ul>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
